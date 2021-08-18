@@ -52,7 +52,10 @@ export default function App() {
   return (
     <div className="App">
       <h1>Emoji Pedia</h1>
-      <input onChange={userInputHandler} />
+      <input
+        onChange={userInputHandler}
+        placeholder="Search emoji here or click on the provide  emojis to know meaning"
+      />
       <div
         style={{ fontStyle: "italic", fontSize: "2rem", fontWeight: "bold" }}
       >
